@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+
+}
+
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/marvel-studios.webp);
+    background-size: cover;
+    z-index: 1;
+}
+
+.marvels {
+
+    background-color: rgba(0, 3, 10, 0.765);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px white;
+    margin: 25vw 37vw 0vw 37vw;
+
+}
+
+.marvels h2 {
+    width: 25vw;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+    color: rgb(131, 245, 207);
+
+
+}
+
+.marvels:hover {
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 8px 8px 10px red;
+}
+
+.marvels h2:hover {
+    color: red;
+}
+
+.S1 {
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(118, 115, 150);
+    border-radius: 10px;
+
+}
+
+.S1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.S1 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.page2 {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/236x/84/e6/95/84e695329ae39c8fb0d1a084b10e28a6.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+
+.spider {
+    width: 30vw;
+    height: 16vh;
+
+    background-color: rgba(0, 3, 10, 0.765);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px white;
+    position: relative;
+    top: 30vw;
+    left:37vw ;
+
+
+}
+
+.spider h2 {
+    width: 25vw;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+    color: rgb(131, 245, 207);
+    
+}
+
+.spider:hover {
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 8px 8px 10px red;
+}
+
+.spider h2:hover {
+    color: red;
+}
+
+.S2 {
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(118, 115, 150);
+
+}
+
+.S2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.S2 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.page3 {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Strange.jpg.jpeg);
+    background-size: cover;
+    z-index: 2;
+}
+.page1,
+.page2,
+.page3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    image-rendering: auto;
+    background-attachment: fixed;
+}
