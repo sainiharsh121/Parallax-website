@@ -92,7 +92,7 @@ html body {
     box-shadow: 8px 8px 10px white;
     position: relative;
     top: 30vw;
-    left:37vw ;
+    left: 37vw;
 
 
 }
@@ -105,7 +105,7 @@ html body {
     align-items: center;
     font-size: 3.5vw;
     color: rgb(131, 245, 207);
-    
+
 }
 
 .spider:hover {
@@ -148,15 +148,7 @@ html body {
     background-size: cover;
     z-index: 2;
 }
-.page1,
-.page2,
-.page3{
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    image-rendering: auto;
-    background-attachment: fixed;
-}
+
 
 .dr {
     width: 30vw;
@@ -167,7 +159,7 @@ html body {
     box-shadow: 8px 8px 10px white;
     position: relative;
     top: 30vw;
-    left:37vw ;
+    left: 37vw;
 
 
 }
@@ -180,7 +172,7 @@ html body {
     align-items: center;
     font-size: 3.5vw;
     color: rgb(131, 245, 207);
-    
+
 }
 
 .dr:hover {
@@ -198,44 +190,77 @@ html body {
     background-color: #333;
     color: white;
     padding: 20px 0;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 15px;
-  }
-  
-  .footer-about, .footer-links, .footer-contact {
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
     flex: 1;
     min-width: 200px;
     margin-bottom: 20px;
-  }
-  
-  .footer-links ul {
+}
+
+.footer-links ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-links ul li a {
+}
+
+.footer-links ul li a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  h3 {
+}
+
+h3 {
     margin-top: 0;
-  }
-  
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .container {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
-    .footer-about, .footer-links, .footer-contact {
-      min-width: 100%;
-      text-align: center;
+
+    .footer-about,
+    .footer-links,
+    .footer-contact {
+        min-width: 100%;
+        text-align: center;
     }
-  }
-  
+}
+
+.footer-about h3:hover{
+    color: aqua;
+}
+.footer-about p:hover{
+    color: rgb(100, 249, 100);
+}
+.footer-links:hover{
+    color: rgb(240, 64, 207);
+}
+.footer-contact p:hover{
+    color: rgb(244, 237, 45);
+}
+.footer-contact h3:hover{
+    color: rgb(46, 64, 226);
+}
+ ul li a:hover{
+    color: rgb(250, 160, 71);
+
+}
+
+.page1,
+.page2,
+.page3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    image-rendering: auto;
+    background-attachment: fixed;
+}
